@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ---- Header ---- */
+
+header {
+    background-color: rgb(0, 0, 0);
+
+}
+
+h1 {
+    font-family: 'Alex Brush', cursive;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* ---- Main ---- */
+.posicionImagen1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+main h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+main h3 {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* ---- Footer ---- */
+
+footer {
+    background-color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+footer ul {
+    padding: 1rem;
+}
+
+footer ul li {
+    padding: 0, 5rem;
+}
+
+/* Extras */
+
+.letrasBlancas {
+    color: aliceblue;
+}
+
+.formulario{
+    padding: 4rem;
+}
+
+.img-responsive{
+    height:"351px";
+    width:"685px" ;
+    object-fit: cover;
+}
