@@ -36,21 +36,23 @@ nav ul {
 }
 
 /* ---- Main ---- */
-.posicionImagen1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 
+.img-responsive-left{
+    width: 100%;
+    height: 350px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
-main h2 {
-    text-align: center;
-    padding: 1rem;
-}
-
-main h3 {
-    text-align: center;
-    padding: 1rem;
+.img-responsive-right{
+    width: 100%;
+    height: 350px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
 }
 
 /* ---- Footer ---- */
@@ -80,8 +82,3 @@ footer ul li {
     padding: 4rem;
 }
 
-.img-responsive{
-    height:"351px";
-    width:"685px" ;
-    object-fit: cover;
-}
