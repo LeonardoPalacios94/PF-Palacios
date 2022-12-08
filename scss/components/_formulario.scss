@@ -1,0 +1,22 @@
+.formulario {
+
+    color: $color-principal;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+
+}
+
+
+
+form {
+    div {
+        button {
+            &:hover {
+                transition: all 300ms;
+                transform: scale(1.15);
+                color: white;
+                background-color: black;
+            }
+        }
+    }
+}

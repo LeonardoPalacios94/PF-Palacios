@@ -1,0 +1,34 @@
+header {
+    background-color: $color-principal;
+
+}
+
+h1 {
+    font-family: 'Alex Brush', cursive;
+    padding: 1rem;
+}
+
+nav {
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: flex-end;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        li {
+            a {
+                &:hover {
+                    font-size: large;
+                    color: white;
+                    transition: all 300ms;
+                }
+            }
+        }
+    }
+}
+
+.letrasBlancas {
+    color: aliceblue;
+}
