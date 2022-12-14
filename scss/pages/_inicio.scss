@@ -35,3 +35,21 @@ main {
         }
     }
 }
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-family: 'Alex Brush', cursive;
+    font-size: 50px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}

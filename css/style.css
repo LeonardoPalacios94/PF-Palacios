@@ -13,13 +13,29 @@ ul {
   list-style: none;
 }
 
+.letrasBlancas {
+  color: aliceblue;
+}
+
+.tituloDePagina {
+  font-family: "Alex Brush", cursive;
+  font-weight: bold;
+  font-size: 75px;
+}
+
 .btn {
   background-color: black;
   color: white;
+  padding: 10px;
 }
 
 .carousel-inner {
   height: 650px;
+}
+
+.carousel {
+  height: 650px;
+  width: 1200px;
 }
 
 footer {
@@ -70,10 +86,6 @@ nav ul li a:hover {
   transition: all 300ms;
 }
 
-.letrasBlancas {
-  color: aliceblue;
-}
-
 .img-responsive-left {
   width: 100%;
   height: 350px;
@@ -100,6 +112,24 @@ nav ul li a:hover {
 main section div a img:hover {
   transition: all 300ms;
   transform: scale(1.05);
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.centrado {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-family: "Alex Brush", cursive;
+  font-size: 50px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
 }
 
 /*# sourceMappingURL=style.css.map */
